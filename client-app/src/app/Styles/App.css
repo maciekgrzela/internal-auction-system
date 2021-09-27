@@ -1,0 +1,652 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../Fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: url('/assets/fonts/whitney-light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'WhitneySC';
+  src: url('/assets/fonts/whitney-lightsc.otf') format('opentype');
+}
+
+body {
+  margin: 0;
+  font-family: 'Whitney', 'Catamaran', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url('https://www.toptal.com/designers/subtlepatterns/patterns/email-pattern.png');
+}
+
+*:not(i) {
+  font-family: 'Whitney', 'Catamaran' !important;
+}
+
+a {
+  color: rgb(255, 117, 39) !important;
+}
+
+a.ias-inverted {
+  color: rgb(255, 255, 255) !important;
+}
+
+.fp-wrapper {
+  width: 100% !important;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+}
+.sidebar {
+  width: 20% !important;
+}
+.fp-panel-main {
+  width: 80% !important;
+  margin-top: 2rem !important;
+}
+
+.ias-orange-border {
+  border: 1px solid rgb(255, 117, 39) !important;
+}
+
+.ias-white-border {
+  border: 1px solid rgb(255, 255, 255) !important;
+}
+
+.ias-input-primary:focus,
+.ias-input-primary:hover,
+.ias-input-primary > div.visible,
+.ias-input-primary > input:focus,
+.ias-input-primary > input:hover,
+.ias-input-primary > textarea:focus,
+.ias-input-primary > textarea:hover,
+.ias-input-primary > input:checked {
+  border-color: rgb(255, 117, 39) !important;
+}
+
+.ias-input-primary input:focus,
+.ias-input-primary input:hover,
+.ias-input-primary textarea:focus,
+.ias-input-primary textarea:hover,
+.ias-input-primary > div.visible,
+.ias-input-primary > input:focus,
+.ias-input-primary > input:hover {
+  border-color: rgb(255, 117, 39) !important;
+}
+
+.ias-checkbox-sidebar {
+  margin-bottom: 1rem;
+}
+
+.ias-checkbox-sidebar:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.ias-checkbox-sidebar-caption {
+  padding-top: 1.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.ias-checkbox-sidebar-caption > .column {
+  padding-left: 0 !important;
+}
+
+.ias-checkbox-toggle-caption > .column {
+  padding-left: 0 !important;
+}
+
+.ui.toggle.checkbox input:focus:checked ~ .box:before,
+.ui.toggle.checkbox input:focus:checked ~ label:before {
+  background-color: rgb(255, 117, 39) !important;
+}
+
+.ui.toggle.checkbox .box:before,
+.ui.toggle.checkbox label:before {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.ui.toggle.checkbox input:checked ~ .box:before,
+.ui.toggle.checkbox input:checked ~ label:before {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.ias-underline {
+  text-decoration: underline;
+}
+
+.ias-details-menu {
+  border-radius: 1.5rem !important;
+  background-color: rgb(255, 117, 39) !important;
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(171, 171, 171, 1) !important;
+  -moz-box-shadow: 0px 2px 10px 0px rgba(171, 171, 171, 1) !important;
+  box-shadow: 0px 2px 10px 0px rgba(171, 171, 171, 1) !important;
+}
+
+.ias-details-menu > .item {
+  padding-top: 1.2rem !important;
+  padding-bottom: 1.2rem !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.ias-info-button {
+  background-color: rgb(255, 117, 39) !important;
+  color: rgb(255, 255, 255) !important;
+  border-radius: 2rem !important;
+  font-weight: 100 !important;
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(150, 150, 150, 1) !important;
+  -moz-box-shadow: 1px 1px 4px 0px rgba(150, 150, 150, 1) !important;
+  box-shadow: 1px 1px 4px 0px rgba(150, 150, 150, 1) !important;
+}
+
+.ias-shadow {
+  box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15) !important;
+}
+
+.ias-pb-0 {
+  padding-bottom: 0 !important;
+}
+
+.ias-pt-0 {
+  padding-top: 0 !important;
+}
+
+.ias-pt-0 {
+  padding-top: 0rem !important;
+}
+
+.ias-pb-0 {
+  padding-bottom: 0rem !important;
+}
+
+.ias-pl-0 {
+  padding-left: 0rem !important;
+}
+
+.ias-pr-0 {
+  padding-right: 0rem !important;
+}
+
+.ias-pt-1 {
+  padding-top: 1rem !important;
+}
+
+.ias-pb-1 {
+  padding-bottom: 1rem !important;
+}
+
+.ias-pl-1 {
+  padding-left: 1rem !important;
+}
+
+.ias-pr-1 {
+  padding-right: 1rem !important;
+}
+
+.ias-pt-2 {
+  padding-top: 2rem !important;
+}
+
+.ias-pb-2 {
+  padding-bottom: 2rem !important;
+}
+
+.ias-pl-2 {
+  padding-left: 2rem !important;
+}
+
+.ias-pr-2 {
+  padding-right: 2rem !important;
+}
+
+.ias-pt-3 {
+  padding-top: 3rem !important;
+}
+
+.ias-pb-3 {
+  padding-bottom: 3rem !important;
+}
+
+.ias-pl-3 {
+  padding-left: 3rem !important;
+}
+
+.ias-pr-3 {
+  padding-right: 3rem !important;
+}
+
+.ias-pt-4 {
+  padding-top: 4rem !important;
+}
+
+.ias-pb-4 {
+  padding-bottom: 4rem !important;
+}
+
+.ias-pl-4 {
+  padding-left: 4rem !important;
+}
+
+.ias-pr-4 {
+  padding-right: 4rem !important;
+}
+
+.ias-pt-5 {
+  padding-top: 5rem !important;
+}
+
+.ias-pb-5 {
+  padding-bottom: 5rem !important;
+}
+
+.ias-pl-5 {
+  padding-left: 5rem !important;
+}
+
+.ias-pr-5 {
+  padding-right: 5rem !important;
+}
+
+.ias-px-0 {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.ias-px-05 {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.ias-px-1 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.ias-px-2 {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.ias-px-3 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.ias-px-4 {
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+}
+
+.ias-px-5 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+.ias-py-0 {
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+}
+
+.ias-py-1 {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.ias-py-2 {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+.ias-py-3 {
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+
+.ias-py-4 {
+  padding-left: 4rem !important;
+  padding-right: 4rem !important;
+}
+
+.ias-py-5 {
+  padding-left: 5rem !important;
+  padding-right: 5rem !important;
+}
+
+.ias-p-0 {
+  padding: 0rem !important;
+}
+
+.ias-p-1 {
+  padding: 1rem !important;
+}
+
+.ias-p-2 {
+  padding: 2rem !important;
+}
+
+.ias-p-3 {
+  padding: 3rem !important;
+}
+
+.ias-p-4 {
+  padding: 4rem !important;
+}
+
+.ias-p-5 {
+  padding: 5rem !important;
+}
+
+.ias-mt-1 {
+  margin-top: 1rem !important;
+}
+
+.ias-mb-1 {
+  margin-bottom: 1rem !important;
+}
+
+.ias-ml-1 {
+  margin-left: 1rem !important;
+}
+
+.ias-mr-1 {
+  margin-right: 1rem !important;
+}
+
+.ias-mt-2 {
+  margin-top: 2rem !important;
+}
+
+.ias-mb-2 {
+  margin-bottom: 2rem !important;
+}
+
+.ias-ml-2 {
+  margin-left: 2rem !important;
+}
+
+.ias-mr-2 {
+  margin-right: 2rem !important;
+}
+
+.ias-mt-3 {
+  margin-top: 3rem !important;
+}
+
+.ias-mb-3 {
+  margin-bottom: 3rem !important;
+}
+
+.ias-ml-3 {
+  margin-left: 3rem !important;
+}
+
+.ias-mr-3 {
+  margin-right: 3rem !important;
+}
+
+.ias-mt-4 {
+  margin-top: 4rem !important;
+}
+
+.ias-mb-4 {
+  margin-bottom: 4rem !important;
+}
+
+.ias-ml-4 {
+  margin-left: 4rem !important;
+}
+
+.ias-mr-4 {
+  margin-right: 4rem !important;
+}
+
+.ias-mt-5 {
+  margin-top: 5rem !important;
+}
+
+.ias-mb-5 {
+  margin-bottom: 5rem !important;
+}
+
+.ias-ml-5 {
+  margin-left: 5rem !important;
+}
+
+.ias-mr-5 {
+  margin-right: 5rem !important;
+}
+
+.ias-mx-0 {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.ias-mx-1 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.ias-mx-2 {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.ias-mx-3 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.ias-mx-4 {
+  margin-top: 4rem !important;
+  margin-bottom: 4rem !important;
+}
+
+.ias-mx-5 {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+
+.ias-my-0 {
+  margin-left: 0rem !important;
+  margin-right: 0rem !important;
+}
+
+.ias-my-1 {
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+
+.ias-my-2 {
+  margin-left: 2rem !important;
+  margin-right: 2rem !important;
+}
+
+.ias-my-3 {
+  margin-left: 3rem !important;
+  margin-right: 3rem !important;
+}
+
+.ias-my-4 {
+  margin-left: 4rem !important;
+  margin-right: 4rem !important;
+}
+
+.ias-my-5 {
+  margin-left: 5rem !important;
+  margin-right: 5rem !important;
+}
+
+.ias-m-0 {
+  margin: 0rem !important;
+}
+
+.ias-m-1 {
+  margin: 1rem !important;
+}
+
+.ias-m-2 {
+  margin: 2rem !important;
+}
+
+.ias-m-3 {
+  margin: 3rem !important;
+}
+
+.ias-m-4 {
+  margin: 4rem !important;
+}
+
+.ias-m-5 {
+  margin: 5rem !important;
+}
+
+.ias-thin {
+  font-weight: 100 !important;
+}
+
+.ias-bold {
+  font-weight: bold !important;
+}
+
+.ias-title {
+  font-size: 3rem !important;
+}
+
+.ias-capitalize {
+  font-family: 'WhitneySC' !important;
+}
+
+.ias-capitalize .content {
+  font-family: 'WhitneySC' !important;
+}
+
+.ias-rounded {
+  border-radius: 1.5rem !important;
+}
+
+.ias-rounded input {
+  border-radius: 1.5rem !important;
+}
+
+.ias-rounded textarea {
+  border-radius: 1.5rem !important;
+}
+
+.ias-rounded-top-left {
+  border-top-left-radius: 1.5rem !important;
+}
+
+.ias-rounded-top-right {
+  border-top-right-radius: 1.5rem !important;
+}
+
+.ias-white-fg {
+  color: rgb(255, 255, 255) !important;
+}
+
+.ias-white-bg {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.ias-orange-fg {
+  color: rgb(255, 117, 39) !important;
+}
+
+.ias-orange-bg {
+  background-color: rgb(255, 117, 39) !important;
+}
+
+.ias-1x {
+  font-size: 1rem !important;
+}
+
+.ias-2x {
+  font-size: 2rem !important;
+}
+
+.ias-3x {
+  font-size: 3rem !important;
+}
+
+.ias-4x {
+  font-size: 4rem !important;
+}
+
+.ias-5x {
+  font-size: 5rem !important;
+}
+
+.ias-flex {
+  display: flex !important;
+}
+
+.ias-flex-ai-center {
+  align-items: center !important;
+}
+
+.ias-lh-2 {
+  line-height: 2rem !important;
+}
+
+.chosenProductDetails {
+  color: rgb(255, 117, 39) !important;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.ias-clear-btn button {
+  background-color: transparent !important;
+  color: rgb(255, 117, 39) !important;
+  text-decoration: underline;
+  padding-top: 0 !important;
+  padding-right: 0 !important;
+}
+
+.ias-w-100 {
+  width: 100% !important;
+}
+
+.nameToBuy {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.price {
+  font-weight: bold !important;
+  font-size: 2.5rem !important;
+}
+
+.ias-align-y {
+  position: relative !important;
+  top: 50% !important;
+  transform: translateY(50%) !important;
+}
+
+.ui.card > :first-child,
+.ui.cards > .card > :first-child {
+  border-top-left-radius: 1.5rem !important;
+  border-top-right-radius: 1.5rem !important;
+}
+
+.ias-absolute {
+  position: absolute !important;
+}
+
+.ui.dimmer {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.ias-dropdown > a.label {
+  background-color: rgb(255, 255, 255) !important;
+  border-radius: 1.5rem !important;
+}
+
+.ias-italic {
+  font-style: italic !important;
+}
+
+.ias-dark-fg {
+  color: rgba(0, 0, 0, 0.7) !important;
+}

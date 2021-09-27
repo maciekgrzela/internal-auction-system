@@ -1,0 +1,196 @@
+{
+  "userAccount": "Konto uzytkownika",
+  "addProductPath": "/product/add",
+  "addProduct": "Dodaj produkt",
+  "addLocation": "Dodaj lokalizacje",
+  "addStorage": "Dodaj magazyn",
+  "modifyStorage": "Edytuj magazyn",
+  "removeStorage": "Usun magazyn",
+  "settings": "Ustawienia",
+  "addDevice": "Dodaj urzadzenie",
+  "clear": "Wyczysc",
+  "parameters": "Parametry ogólne",
+  "basket": "Koszyk sklepowy",
+  "locations": "Lista lokalizacji",
+  "contactForm": "Formularz kontaktowy",
+  "typesParameters": "Parametry typu sprzetu",
+  "goToShopping": "Wroc do zakupów",
+  "contact": "Kontakt",
+  "storages": "Lista magazynow",
+  "city": "Miasto",
+  "postalCode": "Kod pocztowy",
+  "removeLocation": "Usun lokalizacje",
+  "modifyLocation": "Edytuj lokalizacje",
+  "price": "Kwota zakupów",
+  "removeProduct": "Usun produkt",
+  "myPurchases": "Zakupy",
+  "type": "Typ sprzetu:",
+  "location": "Lokalizacja",
+  "deviceStatus": "Stan urzadzenia",
+  "modifyProduct": "Edytuj produkt",
+  "manageProducts": "Zarzadzaj produktami",
+  "connectors": "Zlacza",
+  "specification": "Specyfikacja",
+  "toShoppingCart": "Do koszyka!",
+  "hello": "Witaj:",
+  "clearAllFilters": "Wyczyść wszystkie filtry",
+  "availableDevices": "Dostepne urzadzenia",
+  "successfullyAdded": "Urzadzenie zostalo dodane pomyslnie",
+  "apply": "Zatwierdz",
+  "device": {
+    "search": "Szukaj urzadzenia",
+    "name": "Nazwa",
+    "type": {
+      "name": "Typ urzadzenia",
+      "laptop": {
+        "typename": "laptop",
+        "displayName": "Laptop"
+      },
+      "pc": {
+        "typename": "pc",
+        "displayName": "Komputer Stacjonarny"
+      },
+      "monitor": {
+        "typename": "monitor",
+        "displayName": "Monitor"
+      },
+      "otherdevice": {
+        "typename": "otherdevice",
+        "displayName": "Inne urzadzenie"
+      }
+    },
+    "priceRange": "Kwota",
+    "location": "Lokalizacja",
+    "serviceTag": "Numer serwisowy",
+    "weight": "Waga",
+    "length": "Dlugosc",
+    "height": "Wysokosc",
+    "created": "Data dodania",
+    "producer": "Producent",
+    "saleReason": "Powod sprzedazy",
+    "tested": "Przetestowany",
+    "destination": "Stan urzadzenia",
+    "description": "Opis",
+    "features": "Funkcjonalnosci",
+    "interest": "Zainteresowanie",
+    "interfacePorts": "Zlacza",
+    "screenResolution": "Rozdzielczosc ekranu",
+    "hasTouchScreen": "Dotykowy ekran",
+    "matrix": "Rodzaj matrycy",
+    "processor": "Procesor",
+    "memoryAmount": "Ilosc pamieci operacyjnej (GB)",
+    "graphicsCard": "Karta graficzna",
+    "diskDrive": "Dysk twardy",
+    "operatingSystem": "System operacyjny",
+    "refreshing": "Odswiezanie",
+    "diagonal": "Przekatna ekranu",
+    "contrast": "Kontrast",
+    "hasSpeakers": "Wbudowane glosniki",
+    "extensionsCards": "Karty rozszerzen"
+  },
+  "prompts": {
+    "login": {
+      "error": {
+        "server": "Wystapil blad zwiazany z zewnetrznym serwerem. Sprobuj ponownie za kilka minut"
+      }
+    },
+    "addElement": {
+      "error": {
+        "client": "Jedna z wprowadzonych przez Ciebie wartosci jest nieprawidlowa",
+        "server": "Wystapil blad zwiazany z zewnetrznym serwerem. Sprobuj ponownie za kilka minut"
+      },
+      "success": "Operacja dodania została przeprowadzona pomyślnie"
+    },
+    "addStorage": {
+      "error": {
+        "client": "Jedna z wprowadzonych przez Ciebie wartosci jest nieprawidlowa",
+        "server": "Wystapil blad zwiazany z zewnetrznym serwerem. Sprobuj ponownie za kilka minut"
+      },
+      "success": "Operacja dodania została przeprowadzona pomyślnie"
+    },
+    "modifyStorage": {
+      "error": {
+        "client": "Jedna z wprowadzonych przez Ciebie wartosci jest nieprawidlowa",
+        "server": "Wystapil blad zwiazany z zewnetrznym serwerem. Sprobuj ponownie za kilka minut"
+      },
+      "success": "Operacja aktualizacji została przeprowadzona pomyślnie"
+    },
+    "updateElement": {
+      "error": {
+        "client": "Jedna z wprowadzonych przez Ciebie wartosci jest nieprawidlowa",
+        "server": "Wystapil blad zwiazany z zewnetrznym serwerem. Sprobuj ponownie za kilka minut"
+      },
+      "success": "Operacja aktualizacji została przeprowadzona pomyślnie"
+    },
+    "removeLocation": {
+      "error": {
+        "client": "Lokalizacja nie moze zostac usunieta. Aby usunac te lokalizacje, najpierw nalezy usunac przypisane do niej magazyny"
+      },
+      "success": "Operacja usuniecia została przeprowadzona pomyślnie"
+    },
+    "updateCompanyDetails": {
+      "success": "Dane do faktury zostały zaktualizowane"
+    }
+  },
+
+  "productDetails": "Szczegóły produktu",
+  "cost": "Cena",
+  "producer": "Producent",
+  "resolution": "Rozdzielczosc ekranu",
+  "tested": "Przetestowany",
+  "saleReason": "Powod sprzedazy",
+  "description": "Opis",
+  "parameter": "Parametr",
+  "technicalData": "Dane techniczne",
+  "processor": "Procesor",
+  "memory": "Pamiec RAM",
+  "disk": "Dysk",
+  "system": "System operacyjny",
+  "back": "Powrot do listy ofert",
+  "notFound": "Nie znaleziono produktow spelniajacych podane kryteria",
+  "filterTranslates": {
+    "interfacePorts": "Złącza",
+    "screenResolution": "Rozdzielczość ekranu",
+    "hasSpeakers": "Wbudowane głośniki",
+    "matrix": "Rodzaj matrycy",
+    "refreshing": "Odświeżanie",
+    "contrast": "Kontrast",
+    "extensionsCards": "Karty rozszerzeń",
+    "hasTouchScreen": "Dotykowy ekran",
+    "diagonal": "Przekątna"
+  },
+  "yourBasket": "Twoj koszyk",
+  "sumUp": "Podsumowanie:",
+  "productsAmount": "Produkty w koszyku:",
+  "clearTheBasket": "Wyszysc koszyk",
+  "makeAPurchase": "Dokonaj zakupu",
+  "signIn": "Zaloguj sie",
+  "ias": "Internal Auction System",
+  "withoutAccount": "Nie posiadasz konta?",
+  "alreadySigned": "Posiadasz już konto w serwisie IAS?",
+  "signUp": "Zarejestruj sie!",
+  "registration": "Internal Aution System - Rejestracja",
+  "register": "Zarejestruj!",
+  "regulamin": "Oswiadczam, iz zapoznalem sie z trescia Regulaminu serwisy i akceptuje jego postanowienia",
+  "loginText": "Witaj w IAS. Wprowadz dane logowania, aby moc korzystac ze sklepu",
+  "greetings": [
+    "Witaj uzytkowniku!",
+    "Miło Cie widziec.",
+    "Czas na zakup sprzetu?",
+    "Zaloguj sie w IAS!"
+  ],
+  "quantity": "Liczba sztuk",
+  "buy": "Dokonaj zakupu",
+  "updateCompanyDetails": "Zaktualizuj dane",
+  "shoppingData": "Dane do faktury",
+  "buyText": "Prosimy o wprowadzenie wymaganych danych klienta:",
+  "confirm": "Zatwierdz dane",
+  "backToBasket": "Wróc do koszyka",
+  "back2": "Anuluj",
+  "gratulation": "Gratulacje!",
+  "gratulationText": "Twój zakup produktów na naszej aukcji przebiegł pomyślnie.",
+  "failure": "Niepowodzenie",
+  "failureText": "Przepraszamy, ale podczas przetwarzania twojego zamówienia wystąpiły problemy techniczne.",
+  "repeatTransaction": "Prosimy powtórz zakup lub spróbuj ponownie za kilka minut.",
+  "download": "Pobierz potwierdzenie"
+}
